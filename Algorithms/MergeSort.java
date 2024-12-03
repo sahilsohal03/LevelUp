@@ -37,7 +37,7 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 9, 4, 7, 6, 3, 1, 5 };
+        int[] arr = { 9, 4, 7, 6, 3, 1, 5, 10 };
         int[] sortedarray = new int[arr.length];
         mergeSort(arr, 0, arr.length - 1, sortedarray);
         for (int val : arr)
