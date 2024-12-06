@@ -2,6 +2,16 @@ package Algorithms;
 
 public class MergeSort {
 
+    /**
+     * Merges two contiguous subarrays of the given array into a single sorted segment.
+     * The first subarray is arr[si..mid] and the second subarray is arr[mid+1..ei].
+     *
+     * @param arr          The array containing the subarrays to be merged.
+     * @param si           The starting index of the first subarray.
+     * @param mid          The ending index of the first subarray, and the midpoint for merging.
+     * @param ei           The ending index of the second subarray.
+     * @param sortedarray  A temporary array used to assist in merging the two subarrays.
+     */
     public static void merge(int[] arr, int si, int mid, int ei, int[] sortedarray) {
         int i = si;
         int j = mid + 1;
